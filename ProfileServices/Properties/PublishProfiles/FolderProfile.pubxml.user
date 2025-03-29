@@ -1,0 +1,11 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<!--
+https://go.microsoft.com/fwlink/?LinkID=208121.
+-->
+<Project>
+  <PropertyGroup>
+    <_PublishTargetUrl>D:\PWC_HIERING_POJ_2025_DOTNET_MICROSERVICES\IISDeployCode\profile</_PublishTargetUrl>
+    <History>True|2024-12-18T04:32:39.9131831Z||;True|2024-12-17T20:25:26.9301418+05:30||;True|2024-12-16T17:53:03.9446884+05:30||;False|2024-12-16T17:52:07.7348205+05:30||;True|2024-12-15T20:52:25.7760253+05:30||;False|2024-12-15T20:51:57.3940583+05:30||;True|2024-12-15T17:23:05.1747402+05:30||;False|2024-12-15T17:22:43.1070116+05:30||;True|2024-12-15T10:37:33.6978535+05:30||;True|2024-12-15T10:32:47.8748214+05:30||;True|2024-12-14T20:28:12.1994370+05:30||;True|2024-12-14T18:17:14.2843687+05:30||;</History>
+    <LastFailureDetails />
+  </PropertyGroup>
+</Project>

@@ -1,0 +1,80 @@
+[
+  {
+    "ContainingType": "ProfileServices.Controllers.LoginServicesController",
+    "Method": "GetCandidateDetails",
+    "RelativePath": "api/LoginServices/candidate/details",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "request",
+        "Type": "ProfileServices.Models.Dto.LoginRequestdata",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "ProfileServices.Models.Dto.CandidateProfileDto",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "ProfileServices.Controllers.LoginServicesController",
+    "Method": "LoginCandidate",
+    "RelativePath": "api/LoginServices/login/candidate",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "request",
+        "Type": "ProfileServices.Models.Dto.LoginRequestdata",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "ProfileServices.Models.Dto.ResponseDto",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "ProfileServices.Controllers.LoginServicesController",
+    "Method": "LoginHiringManager",
+    "RelativePath": "api/LoginServices/login/hiringManager",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "request",
+        "Type": "ProfileServices.Models.Dto.LoginRequestdata",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "ProfileServices.Models.Dto.ResponseDto",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  }
+]
